@@ -1,0 +1,11 @@
+Posicionar en Y aleatorio
+Posicion x
+	Si CalculoX = 0
+		Definir x = -100
+	Sino
+		Definir x = 100
+CalculoX = aleatorio entre 0 y 1
+
+	
+
+	
