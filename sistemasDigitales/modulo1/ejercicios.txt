@@ -1,0 +1,16 @@
+ref_flancoPositivo= al llegar un pulso
+
+Prodecidmiento update(h,m,s,t) suma 1 decima la tiempo 
+
+loop
+	if reset = ON then h< = 0; m< = 0; s< = 0; t <= 0
+	elseif start = ON then
+		while stop = OFF loop
+			if ref_flanco_positivo = TRUE then
+				update(h, m, s, t);
+
+			end if;
+		end loop;
+	end if;
+end loop;
+
